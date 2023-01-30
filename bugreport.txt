@@ -1,0 +1,15 @@
+
+TxHash with error (Unable to decode input data) (Jan-30-2023 03:29:12 PM +UTC)
+0xc52fa27b98db57cda82bbc97ee79c95b5099b30a0e6812bb52caa883b57503ad
+0xbdec369888f33da7bae051905b52c39f257d7d9e42a34f798a4720184051bb05
+0xf7e3a253bcdbbc2c7843a88057fe842f9443fcf7092f6a62127120e4f28d8bcc
+0x7d61080f14f54a756575dca06edcd236cd46f7e50fc9acb4e900b3daa30eab12
+0xc06f782b8bd2a0a4def96feb6d63efb8566462272de908188c43f2ad3aab008a
+
+Wallet address
+0x866D92E9eF089cC55E9d46987B5Ecca4061176D8
+
+//Same error that i received after using update function on write contract. When I broke the website I went back to the same tile coordinates, 
+fixed the syntax of my base64 string, and signed the tx. This then allowed me to decode the input data without the  'unable to decode error'. 
+The website then functioned as intended. I recreated this error one further time and had the same result.
+I'm not too sure what's going on at a deeper level, but am positive this is where you need to look.
